@@ -3,5 +3,7 @@ public Main{
 private int id;
 private String names;
 private String address;
+private String password;
+
 
 }
