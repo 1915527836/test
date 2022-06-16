@@ -20,6 +20,8 @@ import java.util.UUID;
 @RestController
 @RequestMapping("users")
 public class UserController extends BaseController {
+    private String name; //用户名
+    
     @Autowired
     private IUserService userService;
     //约定大于配置的开发思想，省略大量的配置甚至注解的编号
