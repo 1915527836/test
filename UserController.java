@@ -23,6 +23,8 @@ public class UserController extends BaseController {
     private int id;//用户id
     private String[] names; //用户名
     private String hobby;//爱好
+    private String address;//居住地址
+
     @Autowired
     private IUserService userService;
     //约定大于配置的开发思想，省略大量的配置甚至注解的编号
